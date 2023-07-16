@@ -1,0 +1,12 @@
+#!/usr/bin/eve python
+# Author ID: jkbrar14
+
+import sys
+def print_args(script, *args):
+	print('Script: {}'.format(script))
+	for arg in args:
+
+if _name_ == '_main_':
+	script = sys.argv[0]
+	args = sys.argv[1:]
+print_args(script, *args)
