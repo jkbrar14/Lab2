@@ -10,3 +10,9 @@ if _name_ == '_main_':
 	script = sys.argv[0]
 	args = sys.argv[1:]
 print_args(script, *args)
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
